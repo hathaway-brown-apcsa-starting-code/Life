@@ -45,6 +45,7 @@ public class Cell
     
     /** 
      * Calculates the state of the cell for the next generation.
+     * Precondition: numNeighbors is current and correct.
      * 
      * Uses the standard rules of Life:
      *   A living cell with 0 or 1 living neighbors dies of loneliness
